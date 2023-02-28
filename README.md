@@ -53,9 +53,12 @@ public class TelcosApiTest {
 
 	private static final Logger log = LoggerFactory.getLogger(TelcosApiTest.class);
 	
-	private String url = "api-url";
+	private String url                 = "";
+	private String xApiKey             = "";
+	private String username            = "";
+	private String password            = "";
 	
-        private ApiClient apiClient;
+    private ApiClient apiClient;
 	
 	private final TelcosApi api = new TelcosApi();
     
